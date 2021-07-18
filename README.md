@@ -54,3 +54,11 @@ test_ws
             setup.py
 
 in addition colcon build will be run after sourcing the ROS environment from ROS DISTRO specified
+
+
+if you want to use the shell script from anywhere in your machine do following steps:
+1. Copy it to a folder without the .sh extension with whatever name you like
+2. chmod -R 755 [name of your executable file]
+3. add the folder where the file is located to your ~/.bashrc file at the end like this:
+
+        PATH=[path_to_your_file]:$PATH
