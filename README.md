@@ -2,6 +2,10 @@
 
 ### Interactive shell script that asks for user input for following and generates ROS2 workspace with package name and node name and folder structure
 
+usage: execute following command from your terminal [notice the "." before the shell script filename]: 
+
+    . make-pkg.sh
+
 ### Inputs required:
 1. ROS DISTRO Name e.g. foxy
 2. workspace name without _ws suffix e.g. test [will generate workspace folder named test_ws]
