@@ -1,6 +1,6 @@
 # ros2-pkg-gen-helper
 
-### Interactive shell script that asks for user input for following and generates ROS2 workspace with package name and node name and folder structure
+### Interactive shell script that asks for user input and generates ROS2 workspace, package, node and folder structure
 
 usage: execute following command from your terminal [notice the "." before the shell script filename]: 
 
